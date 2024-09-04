@@ -1,4 +1,3 @@
-pip install streamlit
 import streamlit as st
 
 # Set the title of the app
@@ -30,4 +29,3 @@ st.image('https://via.placeholder.com/150', caption='Sample Image')
 # Add a button
 if st.button('Click Me'):
     st.write('Button Clicked!')
-streamlit run app.py
